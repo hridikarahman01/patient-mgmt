@@ -1,0 +1,216 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\date{}
+
+\begin{document}
+
+\section{\texorpdfstring{\textbf{\emph{Project
+Outline}}}{Project Outline}}\label{project-outline}
+
+Design an opportunity for universal access to healthcare from anywhere
+at anytime
+
+\begin{itemize}
+\item
+  \includegraphics[width=2.60000in,height=2.60000in]{media/image1.png}Patient
+  Management System
+
+  \begin{itemize}
+  \item
+    Patient Portal
+  \item
+    Doctor Database
+  \item
+    Patient Feedback
+  \item
+    Common Disease and Efficient medicine tracker
+
+    \begin{itemize}
+    \item
+      Online Platform
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\section{\texorpdfstring{\textbf{\emph{Current
+Scenario}}}{Current Scenario}}\label{current-scenario}
+
+Bangladesh is South Asian densely populated low middle-income economy.
+Like many others in her peer group, healthcare in Bangladesh struggles
+in a vicious cycle of inefficiency, mismanagement, patient
+dissatisfaction, and high costs. Reluctantness to embrace digital
+technologies in the healthcare sector, staff shortages, and not
+involving the consumers (patients) in the decision-making process lead
+to this stage.
+
+\section{\texorpdfstring{\textbf{\emph{Solution}}}{Solution}}\label{solution}
+
+This HealthTech project automates daily chores in a hospital that is
+advantageous over time-consuming hand-operated practices. Through this,
+doctors get access to the patients' archives stored in the database.
+This web application empowers the patients to book an appointment, call
+an ambulance, and even give a view on the satisfaction of the services
+received. Generating invoices and recording information about the
+diagnostics given to the patient can also be done.
+
+\section{\texorpdfstring{\textbf{\emph{Objective}}}{Objective}}\label{objective}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  To build a patient-centered healthcare system by giving them a voice,
+  accessibility of healthcare from anywhere at any time.
+\item
+  To keep tabs on common diseases and efficacious treatments.
+\item
+  Empower physicians to analyze patients beforehand from their stored
+  medical records.
+\end{enumerate}
+
+\section{\texorpdfstring{\textbf{\emph{Target
+Customers}}}{Target Customers}}\label{target-customers}
+
+\begin{itemize}
+\item
+  Patients: People who will use our services to book an appointment or
+  call an ambulance. They can get to know all the information of the
+  doctor and service providers. They can also provide feedback on their
+  visit to the healthcare center.
+\item
+  Doctors and Medical Center owners: The owners can keep a tab of all
+  the bookings. They will be able to know which diseases are on rising.
+  Furthermore, they can learn about the quality of their provided
+  services. The doctors can study the patient's medical history
+  beforehand and build a triage system in a time of emergency.
+\end{itemize}
+
+\section{\texorpdfstring{\textbf{\emph{Value
+Proposition}}}{Value Proposition}}\label{value-proposition}
+
+The project presents a compilation of interactive features for a patient
+looking to book an appointment, call an ambulance in case of an
+emergency. It will lessen the bothering and time of going to the
+hospital to book an appointment. In developing nations like Bangladesh,
+few institutions have sought patients' views on satisfaction with
+services, and there is little effort to involve them in measuring
+satisfaction or defining health service standards. Our project aims to
+give them a voice by allowing them to evaluate the services received.
+Our country has a shortage of hospital staff, yet every doctor uses
+trained staff to assist them in patient booking and handling their
+diagnostic reports. As they do everything through pen and paper, it
+results in improper workforce utilization, mismanagement, and longer
+waiting times for patients. However, here, the bookings can be confirmed
+immediately by one person. The patients' medical history data will
+assist the doctor to develop accuracy, become motivated, gain beforehand
+understanding, and build confidence.
+
+\section{\texorpdfstring{\textbf{\emph{Web Application Features and
+Description}}}{Web Application Features and Description}}\label{web-application-features-and-description}
+
+The web page will open with a Login or Sign up page view. New patients
+have to register to avail the services. When patients register or logs
+in, they can:
+
+\begin{itemize}
+\item
+  Choose a doctor and desired time slot if available.
+\item
+  Book an appointment for diagnostic tests.
+\item
+  Call an ambulance.
+\item
+  Access history of their past visits to a doctor.
+\item
+  After visiting a doctor, they can rate or give suggestions.
+\end{itemize}
+
+Hospital administrators or doctors can also log in from the initial
+page. After logging in, they can:
+
+\begin{itemize}
+\item
+  See the patient bookings and confirm them.
+\item
+  See the previously recorded details of the patient.
+\item
+  Store the patient's prescription.
+\item
+  See the rank of most common diseases and administered drugs.
+\item
+  Generate bills.
+\item
+  Feedback on their services.
+\end{itemize}
+
+\section{\texorpdfstring{\textbf{\emph{Tools and Resources
+}}}{Tools and Resources }}\label{tools-and-resources}
+
+HTML, CSS, JavaScript, MySQL, PHP, Web servers, APIs.
+
+\section{\texorpdfstring{\textbf{\emph{Challenges}}}{Challenges}}\label{challenges}
+
+The whole process is online, and a large portion of the conservative
+demographic hesitates to adopt new technology. That's why we must use
+simple and interactive UI. High expenses of modern servers, maintenance
+costs, providing security for online payment, training the staff can be
+challenging. Data verification will also be a problem. Bangladesh has
+started digital NID cards, but accessing the database will not be easy.
+We may need to follow a lengthy and tedious procedure. Lastly, gaining
+the trust of the patient may also be challenging.
+
+\end{document}
