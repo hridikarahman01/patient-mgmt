@@ -1,6 +1,6 @@
 # Patient-Management-System
 
-# Obective
+# Objective
 
 ## 1. To build a patient-centered healthcare system by giving them a voice, accessibility of healthcare from anywhere at any time.
 ## 2. To keep tabs on common diseases and efficacious treatments.
