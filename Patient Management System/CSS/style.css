@@ -1,0 +1,22 @@
+
+.logo-pic{
+    height: 50px;
+}
+.nvb-name{
+    font-size: larger;
+}
+#img-height{
+    height: 700px;
+}
+#dtr-img{
+    height: 550px;
+}
+footer p{
+    padding-top: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+h1{
+    padding-top: 50px;
+    font-weight: 700;
+}
